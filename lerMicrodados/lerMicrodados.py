@@ -103,7 +103,6 @@ def ler_PNAD(path, ano, header=True):
     for text_file in zip_file.infolist():
         dict_name = 'pnad_{}'.format(ano)
         file = text_file.filename
-        print(file)
         name = '{}'.format(file.split('.')[0]).split('/')[1]
         new_file = pd.read_fwf(zip_file.open(file), widths=pnads[dict_name][name][0], index=False, header=None, dtype=str)
         if header:
