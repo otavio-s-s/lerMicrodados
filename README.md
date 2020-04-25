@@ -3,7 +3,7 @@
 
 # lerMicrodados
  
-Pacote desenvolvido para extração em leitura de microdados do IBGE utilizando Python.
+Pacote desenvolvido para extração e leitura de microdados do IBGE utilizando Python.
 
 ## Funções:
  
