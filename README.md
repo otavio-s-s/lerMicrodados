@@ -12,22 +12,22 @@ Pacote desenvolvido para extração e leitura de microdados do IBGE utilizando P
     Realiza a leitura dos microdados da POF 2017/2018 diretamente do arquivo .zip baixado do site do IBGE
     e exporta os dados como um arquivo .csv.
     * path: caminho para o arquivo .zip
-    * param header: boolean, Default True - acrescenta o código da variável como nome de cada coluna.
+    * header: boolean, Default True - acrescenta o código da variável como nome de cada coluna.
     
  * ler_PNAD(path, ano, header=True):
     
     Realiza a leitura dos microdados da PNAD 2013, 2014 ou 2015 diretamente do arquivo .zip baixado do site do IBGE
     e exporta os dados como um arquivo .csv.
-    * param path: aminho para o arquivo .zip
-    * param ano: ano da PNAD.
-    * param header:  boolean, Default True - acrescenta o código da variável como nome de cada coluna.
+    * path: caminho para o arquivo .zip
+    * ano: ano da PNAD.
+    * header:  boolean, Default True - acrescenta o código da variável como nome de cada coluna.
 
  * ler_PNS(path, header=True):
     
     Realiza a leitura dos microdados da PNS 2013 diretamente do arquivo .zip baixado do site do IBGE
     e exporta os dados como um arquivo .csv.
     * path: caminho para o arquivo .zip
-    * param header: boolean, Default True - acrescenta o código da variável como nome de cada coluna.
+    * header: boolean, Default True - acrescenta o código da variável como nome de cada coluna.
 
 ## Funcionamento
 
