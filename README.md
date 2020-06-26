@@ -28,3 +28,11 @@ Pacote desenvolvido para extração e leitura de microdados do IBGE utilizando P
     e exporta os dados como um arquivo .csv.
     * path: caminho para o arquivo .zip
     * param header: boolean, Default True - acrescenta o código da variável como nome de cada coluna.
+
+## Funcionamento
+
+![](https://miro.medium.com/max/700/1*31vC5t30avsM-vQEiwhi3g.png)
+
+***
+
+Leia mais sobre o pacote [neste artigo](https://medium.com/data-hackers/microdados-em-python-um-pacote-para-ler-dados-da-pnad-e-pof-e254cf18477d).
