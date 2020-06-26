@@ -24,7 +24,7 @@ Pacote desenvolvido para extração e leitura de microdados do IBGE utilizando P
 
  * ler_PNS(path, header=True):
     
-    Realiza a leitura dos microdados da POF 2013 diretamente do arquivo .zip baixado do site do IBGE
+    Realiza a leitura dos microdados da PNS 2013 diretamente do arquivo .zip baixado do site do IBGE
     e exporta os dados como um arquivo .csv.
     * path: caminho para o arquivo .zip
     * param header: boolean, Default True - acrescenta o código da variável como nome de cada coluna.
