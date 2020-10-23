@@ -13,6 +13,9 @@ Pacote desenvolvido para extração e leitura de microdados do IBGE utilizando P
     e exporta os dados como um arquivo .csv.
     * path: caminho para o arquivo .zip
     * header: boolean, Default True - acrescenta o código da variável como nome de cada coluna.
+    * format: formato do arquivo gerado. *.csv* a *.xlsx* disponíveis.
+    
+    Atualizada em 23/10/2020.
     
  * ler_PNAD(path, ano, header=True):
     
