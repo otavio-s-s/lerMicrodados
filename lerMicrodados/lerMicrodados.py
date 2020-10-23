@@ -94,8 +94,13 @@ def ler_POF(path, header=True, format='csv'):
             new_file.to_csv('{}.csv'.format(name), index=False)
             print('{}.csv exportado com sucesso.'.format(name))
         else:
-            new_file.to_excel('{}.xlsx'.format(name), index=False)
-            print('{}.xlsx exportado com sucesso.'.format(name))       
+            try:
+                new_file.to_excel('{}.xlsx'.format(name), index=False)
+                print('{}.xlsx exportado com sucesso.'.format(name))       
+            except:
+                print(f'Arquivo {name}.xlsx excede limites do excel. Salvando em formato csv.')
+                new_file.to_csv('{}.csv'.format(name), index=False)
+                print('{}.csv exportado com sucesso.'.format(name))    
 
 def ler_PNAD(path, ano, header=True):
     '''
