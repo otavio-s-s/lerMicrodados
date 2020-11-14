@@ -38,7 +38,7 @@ Pacote desenvolvido para extração e leitura de microdados do IBGE utilizando P
   
     Exemplo:
     
-    >>> pnad = ler_PNADcontinua(anos=['2017','2018'])
+    > pnad = ler_PNADcontinua(anos=['2017','2018'])
   
 
 ## Funcionamento
