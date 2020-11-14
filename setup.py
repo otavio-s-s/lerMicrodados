@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     readme = fh.read()
 
 setup(name='lerMicrodados',
-    version='0.2',
+    version='0.3',
     url='https://github.com/otavio-s-s/lerMicrodados',
     license='MIT License',
     author='Otávio Silveira',
