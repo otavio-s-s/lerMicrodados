@@ -29,9 +29,10 @@ Pacote desenvolvido para extração e leitura de microdados do IBGE utilizando P
     
     Realiza a leitura dos microdados da PNS 2013 diretamente do arquivo .zip baixado do site do IBGE e exporta os dados como um arquivo .csv. *Função  sugerida por [Bruna Schultz](https://www.linkedin.com/in/brunanschultz/).*
     * path: caminho para o arquivo .zip
-    * header: boolean, Default True - acrescenta o código da variável como nome de cada coluna.
-    
+    * header: boolean, Default True - acrescenta o código da variável como nome de cada coluna.  
+ 
  * ler_PNADcontinua(anos: list):
+ 
     Faz a leitura de arquivos da PNAD Contínua trimestral, diretamente do site do IBGE. Retorna um dataframe com os dados agrupados para todos os anos informados.
     
     * anos: Lista com os anos desejados da pesquisa.
